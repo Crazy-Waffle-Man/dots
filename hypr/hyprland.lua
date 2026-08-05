@@ -29,7 +29,11 @@ hl.config({
     decoration = {
         rounding = 10,
         rounding_power = 2,
-        inactive_opacity = 0.75
+        inactive_opacity = 0.75,
+    },
+    input = {
+        numlock_by_default = true,
+        follow_mouse = 2
     },
     master = {
         new_status = "master",
@@ -37,6 +41,7 @@ hl.config({
     },
     misc = {
         force_default_wallpaper = 1,
-        disable_hyprland_logo = true
+        disable_hyprland_logo = true,
+        disable_splash_rendering = true
     }
 })
